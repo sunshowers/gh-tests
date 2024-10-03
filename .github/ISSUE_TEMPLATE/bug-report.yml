@@ -14,7 +14,15 @@ body:
       label: Description of the issue
       description: |
         Describe the issue including steps to reproduce.
-      required: true
+      value: |
+        **Description:**
+
+        **Steps to reproduce:**
+        1. 
+        2. 
+        3.
+      validations:
+        required: true
   - type: textarea
     id: expected
     attributes:
